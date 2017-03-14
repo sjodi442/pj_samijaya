@@ -1,0 +1,1 @@
+<?php if($_SESSION['level'] == 2 || $_SESSION['level'] == 3) echo 'home.php?page=denied'; else echo 'home.php?page=kas_masuk_b'; ?>"

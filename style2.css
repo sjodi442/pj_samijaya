@@ -1,0 +1,42 @@
+#cssmenu ul {
+list-style-type		:none;
+width				:auto;
+position			:relative;
+display				:block;
+height				:88px;
+font-size			:20px;
+font-family			:Poor Richard;
+border				:2px solid black;
+background			:#000000;
+margin				:0;
+padding				:0;
+}
+
+#cssmenu li {
+display			:block;
+float			:left;
+margin			:0;
+padding			:0;
+}
+
+#cssmenu li a {
+float			:left;
+color			:white;
+text-decoration	:none;
+height			:50px;
+padding			:9px 15px 0;
+font-weight		:normal;
+}
+
+#cssmenu li a:hover,.current {
+color			:black;
+background		: white url(images/bg.png) repeat-x top left;
+text-decoration	:none;
+}
+
+#cssmenu .current a {
+color		:black;
+font-weight	:700;
+}
+
+#cssmenu li:hover ul { display: block; }

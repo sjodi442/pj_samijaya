@@ -1,0 +1,119 @@
+html, body{
+height 	: 100%;
+width	:100%;
+}
+
+body{
+font-family			: Poor Richard;
+font-size			: 24px;
+color				: #000000;
+background			: url(images/back.jpg);
+background-repeat	: none ;
+margin-bottom		: 10px;
+padding				: 20px;
+color				:white;
+}
+#wrapper {
+	background		:url(images/background.jpg);
+	width			: 1100px;
+	border			:2px solid white;
+	margin-bottom	:30px;
+}
+.container{
+margin	:auto;
+}
+
+#header{
+background			: #000000;
+overflow			: hidden;
+width				: 1090px;
+height				: 140px;
+border-radius		:10px;
+border-top			:2px solid white;
+font-size			:46px;
+padding				:10px 10px 0px 0px;
+
+}
+
+#menu{
+overflow		: hidden;
+font-size		: 16px;
+height			:32px;
+width			:1096px;
+border			: 2px solid #B1B1B1;
+border-radius	:10px;
+
+}
+
+#page{
+overflow		: hidden;
+padding			: 20px 0px;
+}
+
+#content{
+color					:white;
+border					: 2px solid white;
+float					: left;
+width					: 750px;
+padding					: 10px;
+margin					: 10px;
+height					: 595px;
+border-radius			:10px;
+text-align				:left;
+	-webkit-box-shadow	: 1px 1px 3px white; 
+	-moz-box-shadow		: 1px 1px 3px white; 
+	box-shadow			: 1px 1px 3px white;  
+}
+#sidebar{
+padding					: 8px;
+margin					: 10px;
+margin-right			:15px;
+float					: right;
+width					: 250px;
+height					: 600px;
+	-webkit-box-shadow	: 1px 1px 3px white; 
+	-moz-box-shadow		: 1px 1px 3px white; 
+	box-shadow			: 1px 1px 3px white; 
+}
+
+#atas{
+text-align		:center;
+background		:black;
+border			:2px solid white;
+margin-top		:10px;
+border-radius	:10px;
+}
+
+#tengah{
+text-align		:center;
+background		:black;
+border			:2px solid white;
+margin-top		:10px;
+border-radius	:10px;
+}
+
+#bawah{
+margin-top		:10px;
+margin-bottom	:10px;
+}
+
+#palingbawah{
+margin-top		:10px;
+margin-bottom	:10px;
+background		:black;
+border-radius	:10px;
+border			:2px solid white;
+}
+
+#footer{
+background		:black;
+border			:2px solid white;
+text-align		:center;
+font-size		:18px;
+padding			:10px;
+margin-bottom	:5px;
+margin-left		:5px;
+margin-right	:5px;
+border-radius	:10px;
+height			:12px;
+}
